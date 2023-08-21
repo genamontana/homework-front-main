@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <HW1 />
-        <h1>test</h1>
       {/*<HW2 />*/}
       {/*<HW3 />*/}
       {/*<HW4 />*/}
