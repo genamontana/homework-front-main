@@ -24,8 +24,8 @@ export const HW3 = () => {
         // А ЗАТЕМ УБРАТЬ ЗА СОБОЙ В currentText
         if (currentText.trim().length) {
             setTexts(prev => ([...prev, currentText]))
-            setCurrentText('')
         }
+        setCurrentText('')
     };
 
     return (
